@@ -13,7 +13,7 @@ After running the code go to http://127.0.0.1:8000/docs - you’ll see interacti
 <img src="https://user-images.githubusercontent.com/11677412/145719663-55b7bbff-56a0-4ffb-9d29-4c2cec02efa4.png" alt="alt text" width="512">
 
 
-POST/emotion-detection endpoint predicts the emotion class and returns it as a response.
+POST/emotion-detection endpoint predicts the probabilities for each emotion class and returns them as a response.
 
 <img src="https://user-images.githubusercontent.com/11677412/145719673-2c94624a-abee-4558-a83a-ebc4ab550c9b.png" alt="alt text" width="512">
 
