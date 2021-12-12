@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from transformers import pipeline
 
 classification_model = pipeline('text-classification',
-								model='bhadresh-savani/roberta-base-emotion',
-                				return_all_scores=True)
+				model='bhadresh-savani/roberta-base-emotion',
+				return_all_scores=True)
 
 # Creating FastAPI instance
 app = FastAPI(title='emotion-detection')
